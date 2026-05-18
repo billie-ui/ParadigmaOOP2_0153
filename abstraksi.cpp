@@ -12,5 +12,10 @@ class abstraksiklass
             x = a;
             y = b;
         }
-
-}
+    
+    void display ()
+    {
+        cout << "X = " << x << endl;
+        cout << "Y = " << y << endl;
+    }
+};
