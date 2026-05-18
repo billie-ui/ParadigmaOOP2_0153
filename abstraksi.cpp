@@ -19,3 +19,12 @@ class abstraksiklass
         cout << "Y = " << y << endl;
     }
 };
+
+int main ()
+{
+    abstraksiklass ak;
+    ak.setXY("Yogyakarta", "Kampus");
+    ak.display();
+
+    return 0;
+}
