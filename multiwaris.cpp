@@ -40,4 +40,7 @@ class budi : public pekerja, public pelajar
             pekerja(pUmur),
             pelajar(pUmur),
             orang(pUmur) // hal ini dapat dilakukan jika menggunakan virtual
-}
+        {
+            cout << "Budi Dibuat\n" << endl;
+        }
+};
