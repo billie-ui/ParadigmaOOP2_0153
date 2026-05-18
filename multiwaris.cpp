@@ -12,3 +12,13 @@ class orang
         cout << "Orang Dibuat Dengan Umur " << umur << "\n" << endl;
     }
 };
+
+class pekerja : virtual public orang
+{
+    public:
+        pekerja (int pUmur):
+            orang (pUmur)
+        {
+            cout << "Pekerja Dibuat\n" << endl;
+        }
+};
