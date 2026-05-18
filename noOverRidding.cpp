@@ -9,3 +9,12 @@ class baseClass
             cout << "Hallo saya function dari base class";
         }
 };
+
+class derivedClass :public baseClass
+{
+    public:
+        void perkenalan1()
+        {
+            cout << "Hallo Saya Function dari derived class";
+        }
+};
